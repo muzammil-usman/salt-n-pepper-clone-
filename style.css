@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+:root {
+  --ColorRed: red;
+  --ColorWhite: white;
+  --ColorBlack: Black;
+  --MainFont: 4rem;
+  --h1Font: 3rem;
+}
+
+body {
+  width: 100%;
+  /* height: 100vh; */
+  background-color: var(--ColorBlack);
+}
+.main {
+  /* overflow-x: hidden; */
+  width: 100%;
+}
+nav {
+  background-color: var(--ColorBlack);
+  width: 100%;
+  display: flex;
+  /* height: 7%; */
+  top: 0;
+  right: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 7%;
+}
+
+.nav {
+  display: flex;
+  padding: 0 2%;
+  align-items: center;
+}
+
+.nav > li {
+  padding: 10px 10px;
+  margin: 0 7px;
+  color: var(--ColorWhite);
+  display: flex;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+
+.nav > button {
+  padding: 10px 2px;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid var(--ColorWhite);
+  border-radius: 25px;
+  width: 125px;
+  height: 50px;
+  align-items: center;
+}
+
+#black-btn {
+  border-color: var(--ColorWhite);
+  background-color: var(--ColorBlack);
+  color: var(--ColorWhite);
+}
+
+#red-btn {
+  border-color: var(--ColorWhite);
+  background-color: var(--ColorRed);
+  color: var(--ColorWhite);
+}
+
+.hero-sec {
+  width: 100%;
+  text-align: center;
+  /* padding: 100px 0; */
+  margin-top: 5%;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: var(--MainFont);
+  color: var(--ColorWhite);
+}
+
+.card-box {
+  display: flex;
+  width: 100%;
+  margin-top: 2.5%;
+  gap: 30px;
+  justify-content: center;
+}
+
+.box1 {
+  width: 20%;
+  height: 200px;
+}
+
+.pic1 {
+  width: 100%;
+  height: 150px;
+  /* background-color: aqua; */
+  background-image: url(Assets/Screenshot\ 2024-08-04\ 235301.png);
+  z-index: 1;
+}
+
+.box2 {
+  width: 20%;
+  height: 200px;
+}
+
+.pic2 {
+  width: 100%;
+  height: 150px;
+  background-color: aqua;
+  background-image: url(Assets/Screenshot\ 2024-08-05\ 200802.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.pic3 {
+  width: 100%;
+  height: 150px;
+  background-color: aqua;
+  background-image: url(Assets/Screenshot\ 2024-08-05\ 202212.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.box3 {
+  width: 20%;
+  height: 200px;
+  /* background-color: brown; */
+}
+
+.order-btn {
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 25px;
+  color: var(--ColorWhite);
+  width: 70%;
+  height: 25%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10%;
+  left: 15%;
+  background-color: black;
+}
+
+.upper-sec {
+  width: 100%;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.upper-parent {
+  width: 100%;
+  background-color: teal;
+  margin-top: 5%;
+}
+
+.branches-1 {
+  display: flex;
+  width: 100%;
+  padding: 0 10%;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 5%;
+}
+
+.islamabad {
+  width: 50%;
+  height: 300px;
+  /* background-color: aquamarine; */
+}
+
+.isl-pic {
+  width: 50%;
+  height: 300px;
+  background-image: url(Assets/7aba8915-02ed-46ee-bd96-1063abe072fa.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.direction-btn {
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 25px;
+  color: var(--ColorWhite);
+  width: 35%;
+  height: 20%;
+  /* justify-content: center; */
+  /* align-items: center; */
+  position: relative;
+  top: 10%;
+  background-color: black;
+}
+
+.branches-2 {
+  display: flex;
+  width: 100%;
+  padding: 0 10%;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 5%;
+}
+
+.faislabad {
+  width: 50%;
+  height: 300px;
+  /* background-color: aquamarine; */
+}
+
+.fsl-pic {
+  width: 50%;
+  height: 300px;
+  background-image: url(Assets/11771dbf-36a1-4684-a55e-18af61e0f77c.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.branches-3 {
+  display: flex;
+  width: 100%;
+  padding: 0 10%;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 5%;
+}
+
+.bahawalpur {
+  width: 50%;
+  height: 300px;
+}
+
+.bhl-pic {
+  width: 50%;
+  height: 300px;
+  background-image: url(Assets/b2f78afe-11e4-4af5-8aef-cff9c2908614.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cards-bucket {
+  display: flex;
+  width: 100%;
+  margin-top: 2.5%;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card-1 {
+  width: 30%;
+  height: 500px;
+  background-color: blueviolet;
+}
+.pic-1 {
+  width: 100%;
+  height: 250px;
+  /* background-color: aqua; */
+  background-image: url(Assets/Screenshot\ 2024-08-04\ 235301.png);
+  z-index: 1;
+}
+
+.direct-btn {
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 25px;
+  color: var(--ColorWhite);
+  width: 50%;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10%;
+  left: 15%;
+  background-color: black;
+}
